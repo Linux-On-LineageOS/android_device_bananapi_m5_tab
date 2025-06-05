@@ -11,3 +11,4 @@ WITH_GMS_COMMS_SUITE := false
 endif
 
 $(call inherit-product, device/bananapi/m5/device.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
